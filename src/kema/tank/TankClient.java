@@ -384,6 +384,11 @@ public class TankClient extends Frame{
 		TankClient tc = new TankClient();
 		//µ÷ÓÃlanchframe
 		tc.lauchFrameStart();
+
+		tc.dispose();
+		TankClient.setStart(true);
+		TankClient.setLoding(true);
+		new TankClient().lauchFrame();
 	}
 	
 	/**
